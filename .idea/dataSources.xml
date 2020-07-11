@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails microservice: development" uuid="c891ee8f-fca4-4e29-86c4-5b4dcaeb510c">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:10001/ruby_database</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails microservice: production" uuid="f80e433c-ec76-4d83-bb02-275c9a0e82b5">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/microservice_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails microservice: test" uuid="282a7869-5494-4fa0-8a73-bd435909cb84">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/microservice_test</jdbc-url>
+    </data-source>
+  </component>
+</project>
